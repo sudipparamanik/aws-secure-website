@@ -4,7 +4,7 @@ variable "aws_region" {
   default     = "eu-north-1"
 }
 variable "project_name" {
-  description = "Project name"
+  description = "Name of the project, used as a prefix for resource names"
   type        = string
   default     = "aws-secure-static-website"
 }
